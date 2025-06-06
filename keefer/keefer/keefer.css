@@ -1,0 +1,168 @@
+.heading1 {
+    color: brown;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-item a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.nav-item a {
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.Question a {
+    text-decoration: none;
+    color: rgb(3, 66, 124);
+}
+
+.container-practice {
+    background-color: gray;
+}
+
+body {
+
+    text-align: center !important;
+}
+
+.attach {
+    background-color: #b60707;
+    color: white;
+    width: fit-content;
+    min-width: 50px !important;
+    padding: 5px 5px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+}
+.responsive-bg {
+    background-image: url(form_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    .heading1 {
+        font-size: 1.5rem !important;
+    }
+    .number {
+        font-size: 2.5rem !important;
+    }
+    .text1 {
+        font-size: 1.5rem !important;
+    }
+    #header {
+        text-align: center;
+    }
+    .attach {
+        min-width: 150px;
+    }
+}
+
+@media (max-width: 770px) {
+    #dui,
+    .lastcontainer {
+        text-align: center;
+    }
+}
+
+@media (min-width: 461px) and (max-width: 770px) {
+    #charge {
+        font-size: 2.5rem !important;
+    }
+    #charged {
+        font-size: 1.8rem !important;
+    }
+    #free {
+        font-size: 2rem !important;
+    }
+    #click {
+        font-size: 1.4rem !important;
+    }
+    #paste {
+        width: 100%;
+    }
+    #button {
+        margin-right: 25% !important;
+    }
+    .menu {
+        text-align: center !important;
+    }
+}
+
+@media (max-width: 483px) {
+    .confidential {
+        width: 70%;
+    }
+}
+
+@media (max-width: 450px) {
+    .heading1 {
+        font-size: 0.8rem !important;
+    }
+    .number {
+        font-size: 1.8rem !important;
+    }
+    .text1 {
+        font-size: 0.8rem !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+     .responsive-bg {
+        padding: 0px;
+        margin-top: 1rem;
+    }
+    .heading1 {
+        font-size: 1rem !important;
+    }
+    .number {
+        font-size: 2rem !important;
+    }
+    .text1 {
+        font-size: 1rem !important;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+     .responsive-bg {
+        padding: 0px;
+
+        margin-top: 1rem;
+    }
+    .botton {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+     .responsive-bg {
+        padding: 0px;
+
+        margin-top: 1rem;
+    }
+    .follow {
+        font-size: 1rem !important;
+    }
+    .confidential {
+        width: 50%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+     .responsive-bg {
+        padding: 0px;
+
+        margin-top: 1rem;
+    }
+    .confidential {
+        width: 70%;
+    }
+}
